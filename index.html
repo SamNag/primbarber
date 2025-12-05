@@ -6,7 +6,7 @@
     <title>Prim Barber – Moderný barbershop Vráble</title>
 
     <meta name="description" content="Prim Barber – moderný barbershop vo Vrábľoch. Ponúkame precízne pánske strihy, úpravu brady a holenie britvou. Objednajte sa online.">
-    <meta name="keywords" content="barber Vráble, barbershop Vráble, pánske kaderníctvo Vráble, strihanie vlasov, úprava brady, Prim Barber">
+    <meta name="keywords" content="barber Vráble, barbershop Vráble, pánske kaderníctvo Vráble, strihanie vlasov, úprava brady, Prim Barber, strihanie vrable, barber vrable, primbarber vrable, prim vrable">
     <meta name="author" content="Prim Barber">
 
     <link rel="canonical" href="https://primbarber.sk/" />
@@ -38,7 +38,7 @@
             "name": "Prim Barber",
             "image": "https://primbarber.sk/assets/MAIN-PHOTO.png",
             "url": "https://primbarber.sk/",
-            "telephone": "+421903444666",
+            "telephone": "+421915134811",
             "address": {
                 "@type": "PostalAddress",
                 "streetAddress": "Krátka 168",
@@ -61,8 +61,8 @@
                 {
                     "@type": "OpeningHoursSpecification",
                     "dayOfWeek": "Saturday",
-                    "opens": "09:00",
-                    "closes": "12:00"
+                    "opens": "08:00",
+                    "closes": "17:00"
                 }
             ],
             "sameAs": [
@@ -93,12 +93,19 @@
         <div class="absolute inset-0 flex flex-col justify-center items-center p-8">
             <img src="assets/logo-lightv2.svg" alt="Prim Barber logo" class="w-full max-w-sm mb-4">
         </div>
+        <button
+                onclick="openReservation()"
+                class="absolute bottom-6 left-1/2 -translate-x-1/2 w-3/4 max-w-64
+             bg-transparent text-white border-2 border-white px-8 py-3 font-semibold text-lg uppercase tracking-wider
+             transition-all duration-300 hover:bg-white/50 bg-white/25">
+            REZERVOVAŤ
+        </button>
     </div>
 </section>
 
 <section class="py-4 flex flex-col md:flex-row md:items-center bg-gradient-to-r from-zinc-400 to-zinc-300 my-10 h-96 md:px-0 px-6">
     <div class="md:-rotate-90 md:flex-shrink-0 mb-6 md:mb-0">
-        <h2 class="text-4xl font-extrabold md:text-5xl text-stone-950 tracking-widest">O NÁS</h2>
+        <h2 class="text-4xl font-extrabold md:text-5xl text-stone-950 tracking-widest">O NÁS</h2>
         <div class="h-0.5 bg-stone-950 shadow-[0_2px_4px_0_rgba(255,255,255,0.9)] mt-1"></div>
     </div>
 
@@ -115,21 +122,22 @@
         <div class="h-0.5 bg-stone-950 shadow-[0_2px_4px_0_rgba(255,255,255,0.9)] mt-1"></div>
     </div>
 
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6 w-full">
-        <img src="assets/gallery/1.jpg" loading="lazy" alt="Pánsky strih a úprava brady - Prim Barber" class="rounded-lg md:row-span-2 object-cover w-full h-full hover:scale-[1.02] transition-transform duration-300">
-        <img src="assets/gallery/3.jpg" loading="lazy" alt="Interiér barbershopu Vráble" class="rounded-lg md:row-span-2 object-cover w-full h-full hover:scale-[1.02] transition-transform duration-300">
-        <img src="assets/gallery/2.jpg" loading="lazy" alt="Detail strihania strojčekom" class="rounded-lg md:row-span-2 object-cover w-full h-full hover:scale-[1.02] transition-transform duration-300">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 w-full">
+        <img src="assets/gallery/1.jpeg" loading="lazy" alt="Interiér barbershopu Vráble" class="rounded-lg md:row-span-2 object-cover w-full h-full hover:scale-[1.02] transition-transform duration-300">
+        <img src="assets/gallery/2.jpeg" loading="lazy" alt="Interiér barbershopu Vráble" class="rounded-lg md:row-span-2 object-cover w-full h-full hover:scale-[1.02] transition-transform duration-300">
+        <img src="assets/gallery/3.jpeg" loading="lazy" alt="Interiér barbershopu Vráble" class="rounded-lg md:row-span-2 object-cover w-full h-full hover:scale-[1.02] transition-transform duration-300">
+        <img src="assets/gallery/4.jpeg" loading="lazy" alt="Detail obývačka" class="rounded-lg md:row-span-2 object-cover w-full h-full hover:scale-[1.02] transition-transform duration-300">
     </div>
 </section>
 
 <section class="bg-stone-950 text-white py-12 px-6 md:px-16 flex flex-col items-center">
-    <img src="assets/logo-lightv2.svg" alt="Prim Barber logo" class="w-1/2 md:w-1/4 mb-10" loading="lazy">
+    <img src="assets/logo-lightv2.svg" alt="Prim Barber logo" class="w-full sm:w-1/2 lg:w-1/4 mb-10" loading="lazy">
 
-    <div class="flex flex-col md:flex-row justify-center md:justify-between w-full gap-10 md:gap-16">
+    <div class="flex flex-col md:flex-row justify-center w-full gap-10 md:gap-16 mb-10">
 
-        <div class="flex flex-col items-center md:items-start space-y-4 md:w-1/3">
+        <div class="flex flex-col items-center space-y-4 md:w-1/3">
             <a href="tel:+421903444666" class="text-zinc-300 hover:text-white font-medium text-xl transition-colors duration-300">
-                +421 903 444 666
+                +421 915 134 811
             </a>
 
             <a href="https://www.instagram.com/primbarbershop_vrable/" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 text-zinc-300 hover:text-white transition-colors duration-300">
@@ -142,7 +150,7 @@
             </a>
         </div>
 
-        <div class="flex flex-col items-center md:items-start text-zinc-300 space-y-2 md:w-1/3">
+        <div class="flex flex-col items-center text-zinc-300 space-y-2 md:w-1/3">
             <div class="flex items-center gap-2 mb-1">
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M12 21s-6-5.686-6-10a6 6 0 1112 0c0 4.314-6 10-6 10z" />
@@ -153,7 +161,7 @@
             <p class="text-lg leading-snug text-center md:text-left">Krátka 168<br>952 01 Vráble, Slovensko</p>
         </div>
 
-        <div class="flex flex-col items-center md:items-start text-zinc-300 space-y-2 md:w-1/3">
+        <div class="flex flex-col items-center text-zinc-300 space-y-2 md:w-1/3">
             <div class="flex items-center gap-2 mb-1">
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                     <circle cx="12" cy="12" r="9" />
@@ -163,13 +171,20 @@
             </div>
 
             <div class="text-lg leading-snug space-y-1 text-center md:text-left">
-                <p><span class="font-bold">Po-Pia:</span> 8:00 – 18:00</p>
-                <p><span class="font-bold">Sobota:</span> 9:00 – 12:00</p>
+                <p><span class="font-bold">Po-Pia:</span> 8:00 – 20:00</p>
+                <p><span class="font-bold">Sobota:</span> 8:00 – 17:00</p>
                 <p><span class="font-bold">Nedeľa:</span> Zatvorené</p>
             </div>
         </div>
-
     </div>
+
+    <button
+            onclick="openReservation()"
+            class="max-w-72
+             bg-transparent text-white border-2 border-white px-8 py-3 font-semibold text-lg uppercase tracking-wider
+             transition-all duration-300 hover:bg-white/50 bg-white/25">
+        REZERVOVAŤ TERMÍN
+    </button>
 
     <div class="relative w-full md:w-1/2 mt-10 h-64 md:h-96 cursor-pointer rounded-2xl overflow-hidden shadow-lg" onclick="openNavigation(48.2427419, 18.3038643)">
         <img src="assets/map.jpeg" loading="lazy" alt="Mapa – Prim Barber Vráble, Krátka 168" class="w-full h-full object-cover">
@@ -183,6 +198,11 @@
             ? `http://maps.apple.com/?daddr=${lat},${lng}`
             : `https://www.google.com/maps/dir/?api=1&destination=${lat},${lng}`;
         window.open(navURL, "_blank");
+    }
+
+    function openReservation() {
+        const reservationURL = "https://booqme.sk/sk/rezervacia/primbarbershop";
+        window.open(reservationURL, "_blank");
     }
 </script>
 
